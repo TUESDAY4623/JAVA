@@ -1,0 +1,27 @@
+
+{
+	"folders": [
+		{
+			"path": "C:/PROJECT"
+		}
+	],
+	"settings": {
+		"background.windowBackgrounds": [
+			"C:\\Users\\Utkar\\Downloads"
+		],
+		"background.editorBackgrounds": [
+			"C:\\Users\\Utkar\\Downloads"
+		],
+		"background.sidebarBackgrounds": [
+			"C:\\Users\\Utkar\\Downloads"
+		],
+		"background.panelBackgrounds": [
+			"C:\\Users\\Utkar\\Downloads"
+		]
+	},
+	"extensions": {
+		"recommendations": [
+			"shalldie.background"
+		]
+	}
+}

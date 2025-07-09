@@ -1,0 +1,14 @@
+*{
+    width: 100%;
+    margin: 7px;
+}
+#square{
+    width: 100px; 
+    height: 100px; 
+    background-color: blanchedalmond;
+    transition: 0.7s ease;
+}
+.circle{
+    background-color: rgb(162, 0, 255);
+    border-radius: 50%;
+}

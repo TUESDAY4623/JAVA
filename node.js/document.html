@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experimental Window</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="basic.js">document</script>
+</head>
+    <body>
+        <script>
+            function change() {
+                let newNumber = Math.floor(Math.random() * 100);
+                let numbersElement = document.getElementById("number");
+                if (numbersElement.innerText === ""){
+                    numbersElement.innerText = newNumber;
+                } else {
+                    numbersElement.innerText += " + " + newNumber;
+                }
+            }
+        </script>
+        <style>
+
+        </style>
+        <button onclick="change()">Add a Number</button>
+        <p id="number"></p>
+    </body>
+</html>
+
+
+
+ 
